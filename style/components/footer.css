@@ -1,0 +1,21 @@
+.footer {
+	height: 215px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f1f1f1;
+}
+
+.footer__link {
+	display: inline-block;
+	margin: 0 3px;
+}
+
+.footer__image {
+	width: 24px;
+	opacity: 0.5;
+}
+
+.footer__image:hover {
+	opacity: 0.8;
+}

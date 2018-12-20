@@ -1,0 +1,40 @@
+.hero:before {
+	content: "";
+	display: block;
+	height: 45px;
+}
+
+.hero__item {
+	position: relative;
+	/*display: none;*/
+}
+
+.hero__image {
+	width: 100%;
+}
+
+.hero__text {
+	position: absolute;
+	top: 84%;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+}
+
+.hero__title {
+	margin-bottom: 12px;
+}
+
+@media ( max-width: 449px ) {
+	.hero:before {
+		content: "";
+		display: none;
+	}	
+}
+
+@media ( max-width: 449px ) {
+	.hero__under-title {
+		display: none;
+	}
+}

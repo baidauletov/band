@@ -1,0 +1,60 @@
+.band {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.band__title {
+	display: block;
+	margin-top: 65px;
+}
+
+.band__subtitle {
+	display: block;
+	opacity: 0.60;
+	margin-bottom: 30px;
+}
+
+.band__history {
+	display: block;
+	text-align: justify;
+	margin-bottom: 55px;
+}
+
+.band__members {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 65px;
+}
+
+.band-member {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.band-member__name {
+	margin: 15px 0;
+}
+
+.band-member__image {
+	margin-bottom: 15px;
+	width: 60%;
+}
+
+@media ( max-width: 768px ) {
+	.band__history {
+		width: 70%;
+		margin: 0 auto; 
+		margin-bottom: 55px;
+	}
+}
+
+@media ( max-width: 449px ) {
+	.band__members {
+		flex-direction: column;
+	}
+}

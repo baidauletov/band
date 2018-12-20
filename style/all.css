@@ -1,0 +1,11 @@
+@import url( 'vendor/reset.css' );
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
+/*@import url('https://use.fontawesome.com/releases/v5.4.1/css/all.css');*/
+
+@import url( 'components/header.css' );
+@import url( 'components/texts.css' );
+@import url( 'components/hero.css' );
+@import url( 'components/band.css' );
+@import url( 'components/footer.css' );
+@import url( 'components/tour.css' );
+@import url( 'components/contact.css' );

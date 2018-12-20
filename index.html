@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Band</title>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="style/all.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+	<div class="header" id="header">
+		
+		<!-- mobile menu begin -->
+				<div class="header_mobile" >
+					<div class="header_mobile_top" >
+						
+						<a class="header__logo header__logo_mob" href="index.html">
+						<!-- <img  class="header__image" src="image/ganga.png"> -->
+						<span class="header_mobile__image">BAND</span>
+						<!-- <span class="tooltiptext">GANGA</span> -->
+							
+						</a>
+						<div class="header_mobile_menu" onclick="showMenu()" >
+							<img src="image/menu.png" id="menuImg" >
+						</div>
+					</div>
+
+					<div class="header_mobile_nav" id="menu" >
+						<a class="header_menu_link header_menu_link__active" href="#hero">Главная</a>
+						<a class="header_menu_link" href="#band">Группа</a>
+						<a class="header_menu_link" href="#tour">Тур</a>
+						<a class="header_menu_link" href="#contact">Контакты</a>
+						<a class="header_menu_link" href="#">Мерч</a>
+						<a class="header_menu_link" href="#">Экстра</a>
+						<a class="header_menu_link" href="#">Медиа</a>
+					</div>
+				</div>
+		<!-- mobile menu end -->
+
+		<!-- menu begin -->
+		<div class="menu-container">
+
+			<div class="header-menu">
+
+				<div class="header-menu__nav text-header">
+					<a class="header-menu__item text-header" href="#header">Главная</a>
+					<a class="header-menu__item text-header" href="#band">Группа</a>
+					<a class="header-menu__item text-header" href="#tour">Тур</a>
+					<a class="header-menu__item text-header" href="#contact">Контакты</a>
+					<div class="list-menu">
+						<a class="header-menu__item header-menu-list text-header" href="#">Также</a>
+						<div class="header-list">
+							<a class="header-list__item text-header" href="#">Мерч</a>
+							<a class="header-list__item text-header" href="#">Экстра</a>
+							<a class="header-list__item text-header" href="#">Медиа</a>
+						</div>
+					</div>
+				</div>
+
+				<form class="header-search" action="">
+					<img class="header-search__image" src="image/search.png">
+					<input class="header-search__input" type="text" name="search" placeholder="Search...">
+				</form>
+
+			</div>
+
+		</div>
+		<!-- menu end -->
+		
+		<!-- hero begin -->
+		<div class="hero">
+
+			<div class="hero__item">
+				<img class="hero__image" src="image/hero_1.jpg" alt="New York performance">
+				<div class="hero__text">
+					<h3 class="hero__title text-header text-hedaer_title">Чикаго</h3>
+					<p  class="hero__under-title text-header_parag">Спасибо, Чикаго - Этот вечер мы никогда не забудем</p>
+				</div>
+			</div>
+			<div class="hero__item">
+				<img class="hero__image" src="image/hero_2.jpg" alt="New York performance">
+				<div class="hero__text">
+					<h3 class="hero__title text-header text-hedaer_title">Нью Йорк</h3>
+					<p  class="hero__under-title text-header_parag">Атмосфера была lorem ipsum</p>
+				</div>
+			</div>
+			<div class="hero__item">
+				<img class="hero__image" src="image/hero_3.jpg" alt="New York performance">
+				<div class="hero__text">
+					<h3 class="hero__title text-header text-hedaer_title">Лос Анджелес</h3>
+					<p  class="hero__under-title text-header_parag"> Мы отлично поиграли на пляже Венис Бич</p>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- <div style="height: 500px; background-color: red">	</div>
+	<div style="height: 500px; background-color: red">	</div>
+	<div style="height: 500px; background-color: red">	</div> -->
+
+	<div class="band" id="band">
+		<h2 class="band__title text-band"> Группа	</h2>
+		<p class="band__subtitle text-band_subtitle">	Мы поглощены музыкой</p>
+		<p class="band__history text-band_subtitle"> 	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, temporibus. Culpa error facilis, molestias sint itaque omnis, non perferendis accusantium eum alias ea dolore vero vitae quia rerum corporis cum!	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda animi dicta rerum ullam provident accusantium! Inventore corporis hic blanditiis recusandae laborum repellat veritatis quisquam cumque beatae? Debitis temporibus itaque dolorum.</p>
+		<div class="band__members">	
+				<div class="band-member">
+						<p class="band-member__name">	Name</p>
+						<img class="band-member__image" src="image/member_1.jpg">	
+				</div>
+				<div class="band-member">
+						<p class="band-member__name">	Name</p>
+						<img class="band-member__image" src="image/member_1.jpg">	
+				</div>
+				<div class="band-member">
+						<p class="band-member__name">	Name</p>
+						<img class="band-member__image" src="image/member_1.jpg">	
+				</div>
+		</div>
+	</div>
+
+	<div class="tour" id="tour">
+		<h2 class="tour__title text-band">Даты Тура</h2>
+		<p class="tour__subtitle text-band_subtitle">Не забудьте забронировать билет</p>
+		<ul class="tour-dates">
+			<li class="tour-dates__item text-band_subtitle">Ноябрь<span class="tour-dates__item_status_sold text-band_subtitle">Продано</span></li>
+			<li class="tour-dates__item text-band_subtitle">Декабрь<span class="tour-dates__item_status_sold text-band_subtitle">Продано</span></li>
+			<li class="tour-dates__item text-band_subtitle">Январь<span class="tour-dates__item_status text-band_subtitle">3</span></li>
+		</ul>
+		<div class="tour-cities">
+			<div class="tour-cities__item">
+				<img class="tour-cities__image" src="image/city_1.jpg" alt="city image">
+				<div class="tour-cities__info">
+					<h4 class="tour-cities__title text-band_subtitle">Нью-Йорк</h4>
+					<p class="tour-cities__date text-band_subtitle">27 Ноября 2018</p>
+					<p class="tour-cities__text text-band_subtitle">lorem ipsumasd asdrzcv bzcweg</p>
+					<a class="tour-cities__link" href="#">Купить билет</a>
+				</div>
+			</div>
+			<div class="tour-cities__item">
+				<img class="tour-cities__image" src="image/city_2.jpg" alt="city image">
+				<div class="tour-cities__info">
+					<h4 class="tour-cities__title text-band_subtitle">Париж</h4>
+					<p class="tour-cities__date text-band_subtitle">28 Ноября 2018</p>
+					<p class="tour-cities__text text-band_subtitle">lorem ipsumasd asdrzcv bzcweg</p>
+					<a class="tour-cities__link" href="#">Купить билет</a>
+				</div>
+			</div>
+			<div class="tour-cities__item">
+				<img class="tour-cities__image" src="image/city_3.jpg" alt="city image">
+				<div class="tour-cities__info">
+					<h4 class="tour-cities__title text-band_subtitle">Сан Франциско</h4>
+					<p class="tour-cities__date text-band_subtitle">29 Ноября 2018</p>
+					<p class="tour-cities__text text-band_subtitle">lorem ipsumasd asdrzcv bzcweg</p>
+					<a class="tour-cities__link" href="#">Купить билет</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="contact" id="contact">
+		
+		<h2 class="contact__title text-band">Контакты</h2>
+		<p class="contact__subtitle text-band_subtitle">Фан? Напиши нам сообщение!</p>
+		<div class="contact-info">
+			
+			<div class="contact-info__list">
+				<div class="contact-info__item">
+					<img class="contact-info__image" src="image/001-point.png" alt="">
+					<p class="contact-info__text">Chicago, US</p>
+				</div>
+				<div class="contact-info__item">
+					<img class="contact-info__image" src="image/002-phone.png" alt="">
+					<p class="contact-info__text">Phone: +00 151515</p>
+				</div>
+				<div class="contact-info__item">
+					<img class="contact-info__image" src="image/003-mail.png" alt="">
+					<p class="contact-info__text">Email: mail@mail.com</p>
+				</div>
+			</div>
+			
+			<form class="form" id="form">
+				<div class="form__item">
+					<input class="form__input" type="text" placeholder="Имя">
+					<input class="form__input" type="email" name="email" placeholder="Почта">	
+				</div>
+				<textarea class="form__input_textarea" placeholder="Сообщение" name="" id="" cols="30" rows="10"></textarea>
+				<input class="form__submit" type="submit" value="Отправить">
+			</form>
+		
+		</div>
+
+	</div>
+
+	<div class="map">
+		<div id="band_id" style="width: 100%; height: 400px"></div>
+	</div>
+
+	<footer class="footer">
+		<a class="footer__link" href="#"><img class="footer__image" src="image/001-fb.png" alt=""></a>
+		<a class="footer__link" href="#"><img class="footer__image" src="image/002-in.png" alt=""></a>
+		<a class="footer__link" href="#"><img class="footer__image" src="image/003-tw.png" alt=""></a>
+		<a class="footer__link" href="#"><img class="footer__image" src="image/004-tm.png" alt=""></a>
+		<a class="footer__link" href="#"><img class="footer__image" src="image/005-li.png" alt=""></a>
+	</footer>
+
+<script src="script/slider.js"></script>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+<script src="script/yandexMap.js"></script>
+<script src="script/menu.js"></script>
+</body>
+</html>
